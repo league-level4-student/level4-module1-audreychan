@@ -11,4 +11,51 @@ public class _00_Horoscope {
 	
 	// 3. Make a main method to test your method
 	
+	
+	public static void main(String[] args) {
+		_00_Horoscope horoscope = new _00_Horoscope();
+		horoscope.display(Zodiac.CANCER);
+	}
+	
+	void display(Zodiac sign) {
+		switch(sign) {
+		case ARIES:
+			JOptionPane.showMessageDialog(null, "Your trait is: Aggressive");
+			break;
+		case TAURUS:
+			JOptionPane.showMessageDialog(null, "Your trait is: Possessive");
+			break;
+		case GEMINI:
+			JOptionPane.showMessageDialog(null, "Your trait is: Inconsistent");
+			break;
+		case CANCER:
+			JOptionPane.showMessageDialog(null, "Your trait is: Manipulative");
+			break;
+		case LEO:
+			JOptionPane.showMessageDialog(null, "Your trait is: Arrogant");
+			break;
+		case VIRGO:
+			JOptionPane.showMessageDialog(null, "Your trait is: Overly Critical");
+			break;
+		case LIBRA:
+			JOptionPane.showMessageDialog(null, "Your trait is: Self-pity");
+			break;
+		case SCORPIO:
+			JOptionPane.showMessageDialog(null, "Your trait is: Jealous/Violent");
+			break;
+		case SAGITTARIUS:
+			JOptionPane.showMessageDialog(null, "Your trait is: Extraordinarily Impatient");
+			break;
+		case CAPRICORN:
+			JOptionPane.showMessageDialog(null, "Your trait is: Condescending");
+			break;
+		case AQUARIUS:
+			JOptionPane.showMessageDialog(null, "Your trait is: Temperamental");
+			break;
+		case PISCES:
+			JOptionPane.showMessageDialog(null, "Your trait is: Overly trusting/Victim");
+			break;
+			
+		}
+	}
 }
